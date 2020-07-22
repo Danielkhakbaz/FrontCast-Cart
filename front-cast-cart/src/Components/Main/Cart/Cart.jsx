@@ -5,7 +5,7 @@ const Cart = ({ cartItems }) => {
         <>
             <h1 style={{ textAlign: "center" }}>Cart</h1>
             <h2>
-                {cartItems.length == 0
+                {cartItems.length === 0
                     ? "The Cart is Empty!"
                     : `You Have ${cartItems.length} Items in The Cart!`}
             </h2>
