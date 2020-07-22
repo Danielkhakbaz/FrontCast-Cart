@@ -1,0 +1,40 @@
+{
+    "Products": [
+        {
+            "id": "1",
+            "title": "First Book",
+            "price": "79$",
+            "image": "https://m.media-amazon.com/images/I/514axA2lwpL.jpg"
+        },
+        {
+            "id": "2",
+            "title": "Second Book",
+            "price": "59$",
+            "image": "https://kbimages1-a.akamaihd.net/0c98aac8-b577-4389-8ffb-b5f92cff1692/1200/1200/False/learn-java-12-programming.jpg"
+        },
+        {
+            "id": "3",
+            "title": "Third Book",
+            "price": "39$",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/711aLj2lY1L.jpg"
+        },
+        {
+            "id": "4",
+            "title": "Fourth Book",
+            "price": "29$",
+            "image": "https://prodimage.images-bn.com/pimages/9781683920908_p0_v1_s550x406.jpg"
+        },
+        {
+            "id": "5",
+            "title": "Fifth Book",
+            "price": "89$",
+            "image": "https://5.imimg.com/data5/XX/YM/MY-4078569/java-programming-book-250x250.png"
+        },
+        {
+            "id": "6",
+            "title": "Sixth Book",
+            "price": "49$",
+            "image": "https://prodimage.images-bn.com/pimages/2940154860540_p0_v2_s550x406.jpg"
+        }
+    ]
+}
