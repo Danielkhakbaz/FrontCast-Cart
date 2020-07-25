@@ -5,24 +5,24 @@ import FakeDataBase from "./Services/FakeDataBase.json";
 
 class App extends Component {
     state = {
-        products: [],
-        cartItems: [],
+        Products: [],
+        CartItems: [],
     };
     componentDidMount() {
-        const products = [FakeDataBase];
-        this.setState({ products });
+        const Products = [FakeDataBase];
+        this.setState({ Products });
     }
     render() {
-        const { products, cartItems } = this.state;
+        const { Products, CartItems } = this.state;
         return (
             <>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-8">
-                            <Product allProducts={products} />
+                            <Product AllProducts={Products} />
                         </div>
                         <div className="col-4">
-                            <Cart cartItems={cartItems} />
+                            <Cart CartItems={CartItems} />
                         </div>
                     </div>
                 </div>

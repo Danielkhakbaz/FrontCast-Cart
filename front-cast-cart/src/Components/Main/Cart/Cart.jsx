@@ -1,13 +1,13 @@
 import React from "react";
 
-const Cart = ({ cartItems }) => {
+const Cart = ({ CartItems }) => {
     return (
         <>
             <h1 style={{ textAlign: "center" }}>Cart</h1>
             <h2>
-                {cartItems.length === 0
+                {CartItems.length === 0
                     ? "The Cart is Empty!"
-                    : `You Have ${cartItems.length} Items in The Cart!`}
+                    : `You Have ${CartItems.length} Items in The Cart!`}
             </h2>
         </>
     );

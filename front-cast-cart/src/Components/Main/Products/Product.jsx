@@ -1,10 +1,10 @@
 import React from "react";
 
-const Product = ({ allProducts }) => {
-    if (allProducts.length === 0) {
+const Product = ({ AllProducts }) => {
+    if (AllProducts.length === 0) {
         return null;
     }
-    const products = allProducts[0].Products;
+    const products = AllProducts[0].Products;
     return (
         <>
             <h1 style={{ textAlign: "center" }}>Product</h1>
